@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+}
+ 
+.header {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-title {
+    color: #1f2937;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 1.25rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.card-title {
+    font-size: 1.125rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #f9fafb;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #6b7280;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.table td {
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.table tr:hover {
+    background-color: #f9fafb;
+}
+
+.user-initial {
+    width: 2rem;
+    height: 2rem;
+    background-color: #dbeafe;
+    color: #2563eb;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
+.empty-message {
+    text-align: center;
+    padding: 2rem;
+    color: #6b7280;
+}
+
+.button-container {
+    text-align: center; 
+}
+
+.excluirUser  {
+    background-color: #2563eb; 
+    color: white; 
+    border: none; 
+    border-radius: 0.25rem; 
+    padding: 0.5rem 1rem; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.excluirUser:hover {
+    background-color: #1d4ed8; 
+}
+
+.containerUser  {
+    text-align: center;
+    margin-top: 1rem; 
+}
+
+.adcUser  {
+    display: inline-block;
+}
+
+.adicionarUser  {
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 1rem; 
+    padding: 1rem 5rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.adicionarUser:hover {
+    background-color: #218838; 
+}
